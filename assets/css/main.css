@@ -1572,6 +1572,9 @@ input, select, textarea {
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 		.box .image.featured {
@@ -1600,6 +1603,11 @@ input, select, textarea {
 		.box footer ul.actions {
 			margin-bottom: 0;
 		}
+
+		#devicon {
+			font-size: 50px;
+		}
+		
 
 /* Button */
 
