@@ -152,13 +152,8 @@ input, select, textarea {
 	}
 
 	a {
-		color: #d52349;
-		text-decoration: underline;
+		text-decoration: none;
 	}
-
-		a:hover {
-			text-decoration: none;
-		}
 
 	br.clear {
 		clear: both;
@@ -1607,6 +1602,19 @@ input, select, textarea {
 		#devicon {
 			font-size: 50px;
 		}
+
+		.about {
+			padding: 20px;
+		}
+
+		#funfacts {
+			height: 337px;
+		}
+
+		#contact {
+			display: flex;
+    	justify-content: center;
+		}
 		
 
 /* Button */
@@ -2211,6 +2219,20 @@ input, select, textarea {
 				font-style: normal;
 				margin: 0;
 				font-size: 1.5em;
+			}
+
+			.picture {
+				background: url("../../images/Jason_Kopacz.jpeg");
+				background-position: center center;
+				background-size: auto 100%;
+				background-repeat: no-repeat;
+				width: 293px;
+				height: 293px;
+				border-radius: 50%;
+				position: absolute;
+				z-index: 1;
+				top: 0em;
+				right: 10em;
 			}
 
 /* Intro */

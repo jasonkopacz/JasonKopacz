@@ -947,7 +947,7 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url('../../images/Jason_Kopacz.jpeg');
+		background: #CCE8F4 url('images/Jason_Kopacz.jpeg');
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -1680,4 +1680,8 @@
 				padding: 40px 0 20px 0;
 			}
 
+			#contact {
+				display: flex;
+    		justify-content: center;
+			}
 	}
