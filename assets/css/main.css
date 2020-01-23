@@ -1608,7 +1608,7 @@ input, select, textarea {
 		}
 
 		#funfacts {
-			height: 337px;
+			height: 437px;
 		}
 
 		#contact {
@@ -1616,6 +1616,10 @@ input, select, textarea {
     	justify-content: center;
 		}
 		
+		/* #banner {
+			display: flex;
+			flex-direction: column;
+		} */
 
 /* Button */
 
@@ -2232,7 +2236,7 @@ input, select, textarea {
 				position: absolute;
 				z-index: 1;
 				top: 0em;
-				right: 10em;
+				left: 1em;
 			}
 
 /* Intro */
